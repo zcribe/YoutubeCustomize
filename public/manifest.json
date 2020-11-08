@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "version": "0.0.1",
-  "short_name": "React App",
-  "name": "Youtube customiser",
-  "description": "Sample application showing how to create an extension with Create React App",
+  "short_name": "Youtube Custom",
+  "name": "Youtube Customiser",
+  "description": "Add and remove Youtube content panels as you wish.",
   "browser_action": {
-    "default_title": "CRE",
+    "default_title": "Youtube Customiser",
     "default_popup": "popup.html"
   },
   "background": {
@@ -18,10 +18,10 @@
     }
   ],
   "icons": {
-    "16": "img/icon-16.png",
+    "22": "img/icon-22.png",
     "48": "img/icon-48.png",
     "128": "img/icon-128.png"
   },
-  "permissions": ["activeTab", "tabs", "storage", "nativeMessaging"],
+  "permissions": ["activeTab", "storage"],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

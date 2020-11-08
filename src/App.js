@@ -44,7 +44,10 @@ class App extends React.Component {
       <header className="App-header">
       <FormControl component="fieldset">
          <FormGroup aria-label="position">
-         <FormLabel component="legend" color="secondary">Majakas</FormLabel>
+         <div style={{display:"flex", justifyContent: "center", alignContent:"center"}}>
+         <img src="img/icon-48.png" style={{width:"48px", height:"48px"}} alt="logo"/>
+         </div>
+         <p>Youtube customiser</p>
           <FormControlLabel  control={<Checkbox checked={this.state.views} name="views" onChange={this.handleChange} />}   label="View counter"/>
           <FormControlLabel   control={<Checkbox checked={this.state.comments}/>} name="comments" onChange={this.handleChange}  label="Comments"/>
           <FormControlLabel   control={<Checkbox checked={this.state.merchandise}/>} name="merchandise" onChange={this.handleChange}  label="Merchandise"/>
