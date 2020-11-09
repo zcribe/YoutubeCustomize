@@ -1,6 +1,6 @@
 /* global chrome */
 import React from 'react';
-import {Button, Checkbox, FormControlLabel, FormLabel, FormGroup, FormControl} from '@material-ui/core';
+import {Button, Checkbox, FormControlLabel, FormLabel, FormGroup, FormControl, Typography} from '@material-ui/core';
 import './App.css';
 
 class App extends React.Component {
@@ -47,7 +47,7 @@ class App extends React.Component {
          <div style={{display:"flex", justifyContent: "center", alignContent:"center"}}>
          <img src="img/icon-48.png" style={{width:"48px", height:"48px"}} alt="logo"/>
          </div>
-         <p>Youtube customiser</p>
+         <Typography variant="h6">YOUTUBE CUSTOMISER</Typography>
           <FormControlLabel  control={<Checkbox checked={this.state.views} name="views" onChange={this.handleChange} />}   label="View counter"/>
           <FormControlLabel   control={<Checkbox checked={this.state.comments}/>} name="comments" onChange={this.handleChange}  label="Comments"/>
           <FormControlLabel   control={<Checkbox checked={this.state.merchandise}/>} name="merchandise" onChange={this.handleChange}  label="Merchandise"/>
