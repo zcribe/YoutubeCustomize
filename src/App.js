@@ -47,7 +47,7 @@ class App extends React.Component {
          <div style={{display:"flex", justifyContent: "center", alignContent:"center"}}>
          <img src="img/icon-48.png" style={{width:"48px", height:"48px"}} alt="logo"/>
          </div>
-         <Typography variant="h6">YOUTUBE CUSTOMISER</Typography>
+         <Typography variant="h6">Youtube Customiser</Typography>
           <FormControlLabel  control={<Checkbox checked={this.state.views} name="views" onChange={this.handleChange} />}   label="View counter"/>
           <FormControlLabel   control={<Checkbox checked={this.state.comments}/>} name="comments" onChange={this.handleChange}  label="Comments"/>
           <FormControlLabel   control={<Checkbox checked={this.state.merchandise}/>} name="merchandise" onChange={this.handleChange}  label="Merchandise"/>
