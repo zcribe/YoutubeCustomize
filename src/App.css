@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -15,6 +17,8 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: url("/bg-red.jpg");
+  background-size: cover;
   min-height: 150px;
   min-width: 150px;
   padding: 30px;
