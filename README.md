@@ -6,7 +6,7 @@ Does the merchandise bar annoy you? Remove it. Do you want to stop spending time
 ## Use the extension
 [Chrome](https://chrome.google.com/webstore/detail/youtube-customiser/jlcpaifegmmdaiafenaeajnkbclgikhp?hl=en-GB)
 
-[Firefox]()
+[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/youtube-customiser/)
 
 ## Develop
 
