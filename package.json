@@ -9,7 +9,7 @@
     "@testing-library/user-event": "12.5.0",
     "formik": "2.2.5",
     "react": "17.0.1",
-    "react-browser-extension-scripts": "3.3.1",
+    "react-browser-extension-scripts": "4.0.10",
     "react-dom": "17.0.1"
   },
   "scripts": {
